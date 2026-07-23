@@ -489,6 +489,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
       mesh.material.opacity = DIM_OPACITY;
       mesh.material.transparent = true;
       mesh.material.emissive && mesh.material.emissive.setHex(0x000000);
+      if(mesh.userData.origColor) mesh.material.color.copy(mesh.userData.origColor);
     });
   }
   function clearHighlight(){
@@ -499,21 +500,28 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
   function highlightMuscle(name){
     const m = muscles[name];
     dimAll();
+    const hintEl = document.getElementById('viewer-hint');
     if(!m.notModeled){
-      let anyFound = false;
+      let foundMeshCount = 0;
+      let resolvedNameCount = 0;
       m.objectNames.forEach(objName=>{
         const meshes = meshesForObjectName(objName);
-        if(meshes.length) anyFound = true;
+        if(meshes.length) resolvedNameCount++;
         meshes.forEach(mesh=>{
+          foundMeshCount++;
           mesh.material.opacity = 1.0;
           mesh.material.transparent = true;
           if(mesh.material.emissive) mesh.material.emissive.setHex(0xC1432E);
           if(mesh.material.emissiveIntensity !== undefined) mesh.material.emissiveIntensity = 0.35;
+          if(mesh.material.color) mesh.material.color.set(0xC1432E);
         });
       });
-      if(!anyFound){
+      hintEl.textContent = `[debug] ${name}: 対象名${m.objectNames.length}件中${resolvedNameCount}件解決 / メッシュ${foundMeshCount}個ハイライト（全メッシュ数:${allMeshes.length}）`;
+      if(foundMeshCount===0){
         console.warn('[TriggerPointMap] 3Dオブジェクトが見つかりません:', name, m.objectNames);
       }
+    } else {
+      hintEl.textContent = `[debug] ${name}: このアプリの3Dモデルには存在しません`;
     }
   }
 
@@ -564,6 +572,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
         obj.material = obj.material.clone();
         obj.material.transparent = true;
         obj.material.opacity = DIM_OPACITY;
+        if(obj.material.color) obj.userData.origColor = obj.material.color.clone();
         allMeshes.push(obj);
       }
     });
