@@ -462,8 +462,27 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
   window.addEventListener('resize', resize);
 
   const DIM_OPACITY = 0.16;
-  const modelObjects = {}; // objectName -> mesh
   let allMeshes = [];
+  const loadedRoots = []; // top-level glTF scene roots, searched by getObjectByName
+  const meshCache = {}; // objectName -> mesh[] (resolved lazily, cached)
+
+  function collectMeshes(node){
+    const found = [];
+    node.traverse(o=>{ if(o.isMesh) found.push(o); });
+    return found;
+  }
+
+  function meshesForObjectName(objName){
+    if(objName in meshCache) return meshCache[objName];
+    let target = null;
+    for(const root of loadedRoots){
+      target = root.getObjectByName(objName);
+      if(target) break;
+    }
+    const meshes = target ? collectMeshes(target) : [];
+    meshCache[objName] = meshes;
+    return meshes;
+  }
 
   function dimAll(){
     allMeshes.forEach(mesh=>{
@@ -481,20 +500,40 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
     const m = muscles[name];
     dimAll();
     if(!m.notModeled){
+      let anyFound = false;
       m.objectNames.forEach(objName=>{
-        const mesh = modelObjects[objName];
-        if(mesh){
+        const meshes = meshesForObjectName(objName);
+        if(meshes.length) anyFound = true;
+        meshes.forEach(mesh=>{
           mesh.material.opacity = 1.0;
           mesh.material.transparent = true;
           if(mesh.material.emissive) mesh.material.emissive.setHex(0xC1432E);
           if(mesh.material.emissiveIntensity !== undefined) mesh.material.emissiveIntensity = 0.35;
-        }
+        });
       });
+      if(!anyFound){
+        console.warn('[TriggerPointMap] 3Dオブジェクトが見つかりません:', name, m.objectNames);
+      }
     }
   }
 
   const raycaster = new THREE.Raycaster();
   const pointer = new THREE.Vector2();
+  function resolveMuscleFromHit(hitObject){
+    let node = hitObject;
+    while(node){
+      const n = node.name;
+      if(n){
+        const found = currentMuscleNames.find(name=>{
+          const mo = muscles[name];
+          return !mo.notModeled && mo.objectNames.includes(n);
+        });
+        if(found) return found;
+      }
+      node = node.parent;
+    }
+    return null;
+  }
   function onPointerTap(ev){
     const rect = canvas.getBoundingClientRect();
     const cx = (ev.changedTouches ? ev.changedTouches[0].clientX : ev.clientX);
@@ -504,11 +543,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
     raycaster.setFromCamera(pointer, camera);
     const hits = raycaster.intersectObjects(allMeshes, false);
     if(hits.length===0) return;
-    const hitName = hits[0].object.name;
-    const found = currentMuscleNames.find(n=>{
-      const mo = muscles[n];
-      return !mo.notModeled && mo.objectNames.includes(hitName);
-    });
+    const found = resolveMuscleFromHit(hits[0].object);
     if(found) selectMuscle(found);
   }
   canvas.addEventListener('click', onPointerTap);
@@ -529,10 +564,10 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
         obj.material = obj.material.clone();
         obj.material.transparent = true;
         obj.material.opacity = DIM_OPACITY;
-        modelObjects[obj.name] = obj;
         allMeshes.push(obj);
       }
     });
+    loadedRoots.push(model);
     scene.add(model);
   }
 
@@ -557,6 +592,17 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
     loadingEl.style.display = 'none';
     resize();
     animate();
+
+    // diagnostic: confirm how many of the needed objects actually resolved by name
+    const allNeeded = new Set();
+    Object.values(muscles).forEach(m => m.objectNames.forEach(o=>allNeeded.add(o)));
+    let hit = 0;
+    allNeeded.forEach(o => { if(meshesForObjectName(o).length) hit++; });
+    console.log(`[TriggerPointMap] 3Dオブジェクト一致: ${hit} / ${allNeeded.size}`);
+    if(hit === 0 && allNeeded.size > 0){
+      document.getElementById('viewer-hint').textContent =
+        `⚠ 3Dオブジェクト名が一致していません（0/${allNeeded.size}）。glb書き出し設定をご確認ください。`;
+    }
   })();
 
   function animate(){
