@@ -301,10 +301,19 @@
   </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.128.0/three.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.128.0/loaders/GLTFLoader.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.128.0/controls/OrbitControls.js"></script>
-<script>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
 (async function(){
 
   // ---------- data ----------
@@ -437,7 +446,7 @@
   rim.position.set(-3,1,-2);
   scene.add(rim);
 
-  const controls = new THREE.OrbitControls(camera, renderer.domElement);
+  const controls = new OrbitControls(camera, renderer.domElement);
   controls.target.set(0,1.0,0);
   controls.enableDamping = true;
   controls.dampingFactor = 0.08;
@@ -504,7 +513,7 @@
   }
   canvas.addEventListener('click', onPointerTap);
 
-  const loader = new THREE.GLTFLoader();
+  const loader = new GLTFLoader();
 
   function loadGlb(path){
     return new Promise((resolve)=>{
