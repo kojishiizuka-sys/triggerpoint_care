@@ -1,0 +1,2257 @@
+{
+ "categories": [
+  {
+   "id": "cat01",
+   "name": "頭部と首の痛み",
+   "locations": [
+    {
+     "id": "cat01_loc01",
+     "name": "頭頂部",
+     "muscles": [
+      "胸鎖乳突筋",
+      "板状筋"
+     ]
+    },
+    {
+     "id": "cat01_loc02",
+     "name": "前頭部",
+     "muscles": [
+      "胸鎖乳突筋",
+      "頭半棘筋",
+      "頬骨筋",
+      "上唇挙筋",
+      "前頭筋"
+     ]
+    },
+    {
+     "id": "cat01_loc03",
+     "name": "こめかみ部",
+     "muscles": [
+      "僧帽筋",
+      "胸鎖乳突筋",
+      "側頭筋",
+      "頸板状筋",
+      "後頭下筋群",
+      "頭半棘筋"
+     ]
+    },
+    {
+     "id": "cat01_loc04",
+     "name": "目",
+     "muscles": [
+      "胸鎖乳突筋",
+      "側頭筋",
+      "頸板状筋",
+      "咬筋",
+      "後頭下筋群",
+      "後小後頭直筋",
+      "眼輪筋",
+      "僧帽筋"
+     ]
+    },
+    {
+     "id": "cat01_loc05",
+     "name": "副鼻腔",
+     "muscles": [
+      "胸鎖乳突筋"
+     ]
+    },
+    {
+     "id": "cat01_loc06",
+     "name": "咬筋の異常",
+     "muscles": [
+      "外側翼突筋",
+      "眼輪筋",
+      "頬骨筋",
+      "上唇挙筋"
+     ]
+    },
+    {
+     "id": "cat01_loc07",
+     "name": "耳と頸部",
+     "muscles": [
+      "外側翼突筋",
+      "内側翼突筋",
+      "咬筋",
+      "胸鎖乳突筋",
+      "僧帽筋"
+     ]
+    },
+    {
+     "id": "cat01_loc08",
+     "name": "舌",
+     "muscles": [
+      "胸鎖乳突筋",
+      "内側翼突筋",
+      "顎舌骨筋"
+     ]
+    },
+    {
+     "id": "cat01_loc09",
+     "name": "歯",
+     "muscles": [
+      "側頭筋",
+      "咬筋",
+      "顎二腹筋",
+      "頬筋"
+     ]
+    },
+    {
+     "id": "cat01_loc10",
+     "name": "喉",
+     "muscles": [
+      "胸鎖乳突筋",
+      "内側翼突筋",
+      "顎二腹筋",
+      "頸長筋",
+      "頬筋",
+      "広頸筋"
+     ]
+    },
+    {
+     "id": "cat01_loc11",
+     "name": "側頭部",
+     "muscles": [
+      "内側翼突筋",
+      "胸鎖乳突筋",
+      "肩甲挙筋",
+      "顎二腹筋"
+     ]
+    },
+    {
+     "id": "cat01_loc12",
+     "name": "後頭部",
+     "muscles": [
+      "僧帽筋",
+      "胸鎖乳突筋",
+      "頭半棘筋",
+      "頸板状筋"
+     ]
+    },
+    {
+     "id": "cat01_loc13",
+     "name": "後頭下筋群（深部）",
+     "muscles": [
+      "顎二腹筋",
+      "側頭筋"
+     ]
+    },
+    {
+     "id": "cat01_loc14",
+     "name": "後頸部",
+     "muscles": [
+      "僧帽筋",
+      "多裂筋",
+      "回旋筋",
+      "肩甲挙筋",
+      "頸板状筋",
+      "棘下筋"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cat02",
+   "name": "肩、上背部、上腕の痛み",
+   "locations": [
+    {
+     "id": "cat02_loc01",
+     "name": "肩前部",
+     "muscles": [
+      "棘下筋",
+      "三角筋前部",
+      "斜角筋",
+      "棘上筋",
+      "大胸筋",
+      "小胸筋",
+      "上腕二頭筋",
+      "広背筋",
+      "烏口腕筋"
+     ]
+    },
+    {
+     "id": "cat02_loc02",
+     "name": "肩後部",
+     "muscles": [
+      "斜角筋",
+      "肩甲挙筋",
+      "三角筋後部",
+      "棘上筋",
+      "大円筋",
+      "小円筋",
+      "肩甲下筋",
+      "上後鋸筋",
+      "広背筋",
+      "僧帽筋",
+      "脊柱起立筋"
+     ]
+    },
+    {
+     "id": "cat02_loc03",
+     "name": "肩外側",
+     "muscles": [
+      "棘下筋",
+      "斜角筋",
+      "三角筋中部",
+      "棘上筋"
+     ]
+    },
+    {
+     "id": "cat02_loc04",
+     "name": "上腕前部",
+     "muscles": [
+      "斜角筋",
+      "棘下筋",
+      "上腕二頭筋",
+      "上腕筋",
+      "上腕三頭筋",
+      "棘上筋",
+      "三角筋前部",
+      "鎖骨下筋"
+     ]
+    },
+    {
+     "id": "cat02_loc05",
+     "name": "上腕後部",
+     "muscles": [
+      "斜角筋",
+      "上腕三頭筋",
+      "三角筋後部",
+      "肩甲下筋",
+      "棘上筋",
+      "大円筋",
+      "小円筋",
+      "広背筋",
+      "上後鋸筋",
+      "烏口腕筋"
+     ]
+    },
+    {
+     "id": "cat02_loc06",
+     "name": "上背部",
+     "muscles": [
+      "斜角筋",
+      "肩甲挙筋",
+      "棘上筋",
+      "僧帽筋",
+      "菱形筋",
+      "広背筋",
+      "深部脊柱起立筋",
+      "脊柱起立筋",
+      "上後鋸筋",
+      "棘下筋",
+      "前鋸筋"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cat03",
+   "name": "肘、前腕、手の痛み",
+   "locations": [
+    {
+     "id": "cat03_loc01",
+     "name": "肘外側",
+     "muscles": [
+      "前腕伸筋群",
+      "上腕三頭筋",
+      "腕橈骨筋",
+      "回外筋",
+      "棘上筋",
+      "肘筋"
+     ]
+    },
+    {
+     "id": "cat03_loc02",
+     "name": "前腕後面",
+     "muscles": [
+      "上腕三頭筋",
+      "斜角筋",
+      "前腕伸筋群",
+      "腕橈骨筋",
+      "上腕筋",
+      "前腕屈筋群",
+      "棘下筋",
+      "大円筋",
+      "烏口腕筋",
+      "棘上筋"
+     ]
+    },
+    {
+     "id": "cat03_loc03",
+     "name": "手首後面と手",
+     "muscles": [
+      "肩甲下筋",
+      "前腕伸筋群",
+      "斜角筋",
+      "上後鋸筋",
+      "第一背側骨間筋",
+      "広背筋",
+      "烏口腕筋"
+     ]
+    },
+    {
+     "id": "cat03_loc04",
+     "name": "母指と示指間",
+     "muscles": [
+      "上腕筋",
+      "斜角筋",
+      "回外筋",
+      "棘下筋",
+      "長橈側手根伸筋",
+      "腕橈骨筋",
+      "母指対立筋",
+      "母指内転筋",
+      "第一背側骨間筋",
+      "長母指屈筋"
+     ]
+    },
+    {
+     "id": "cat03_loc05",
+     "name": "肘内側",
+     "muscles": [
+      "上腕三頭筋",
+      "尺側手根屈筋",
+      "大胸筋",
+      "小胸筋",
+      "前鋸筋",
+      "上後鋸筋"
+     ]
+    },
+    {
+     "id": "cat03_loc06",
+     "name": "前腕前面",
+     "muscles": [
+      "長掌筋",
+      "円回内筋",
+      "前鋸筋",
+      "上腕三頭筋",
+      "広背筋",
+      "大胸筋",
+      "小胸筋",
+      "上後鋸筋"
+     ]
+    },
+    {
+     "id": "cat03_loc07",
+     "name": "手首前面と手掌",
+     "muscles": [
+      "母指対立筋",
+      "前腕屈筋群",
+      "長掌筋",
+      "円回内筋",
+      "大胸筋",
+      "小胸筋",
+      "広背筋",
+      "前鋸筋"
+     ]
+    },
+    {
+     "id": "cat03_loc08",
+     "name": "手指（掌側）",
+     "muscles": [
+      "指屈筋",
+      "骨間筋",
+      "上腕三頭筋",
+      "広背筋",
+      "前鋸筋"
+     ]
+    },
+    {
+     "id": "cat03_loc09",
+     "name": "手指（背側）",
+     "muscles": [
+      "指伸筋",
+      "斜角筋",
+      "上腕三頭筋",
+      "骨間筋",
+      "小胸筋",
+      "広背筋"
+     ]
+    },
+    {
+     "id": "cat03_loc10",
+     "name": "手と指の痺れ",
+     "muscles": [
+      "斜角筋",
+      "上後鋸筋",
+      "小胸筋",
+      "小円筋",
+      "上腕三頭筋",
+      "烏口腕筋",
+      "上腕筋",
+      "回外筋",
+      "短橈側手根伸筋",
+      "尺側手根屈筋",
+      "指屈筋",
+      "円回内筋"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cat04",
+   "name": "胸部、腹部、性器の痛み",
+   "locations": [
+    {
+     "id": "cat04_loc01",
+     "name": "胸",
+     "muscles": [
+      "大胸筋",
+      "小胸筋",
+      "斜角筋",
+      "胸鎖乳突筋",
+      "胸骨筋",
+      "肋間筋",
+      "脊柱起立筋",
+      "鎖骨下筋",
+      "腹直筋",
+      "横隔膜"
+     ]
+    },
+    {
+     "id": "cat04_loc02",
+     "name": "胸肋部",
+     "muscles": [
+      "前鋸筋",
+      "腹斜筋",
+      "肋間筋",
+      "広背筋",
+      "横隔膜"
+     ]
+    },
+    {
+     "id": "cat04_loc03",
+     "name": "腹部",
+     "muscles": [
+      "腹直筋",
+      "腹斜筋",
+      "脊柱起立筋",
+      "深部脊柱起立筋",
+      "腰方形筋"
+     ]
+    },
+    {
+     "id": "cat04_loc04",
+     "name": "性器",
+     "muscles": [
+      "腹直筋",
+      "腹斜筋",
+      "大内転筋",
+      "腰筋",
+      "梨状筋"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cat05",
+   "name": "中背部、腰部、殿部の痛み",
+   "locations": [
+    {
+     "id": "cat05_loc01",
+     "name": "中背部",
+     "muscles": [
+      "脊柱起立筋",
+      "深部脊柱起立筋",
+      "前鋸筋",
+      "下後鋸筋",
+      "腹直筋",
+      "肋間筋",
+      "広背筋",
+      "棘下筋"
+     ]
+    },
+    {
+     "id": "cat05_loc02",
+     "name": "腰痛",
+     "muscles": [
+      "中殿筋",
+      "腰筋",
+      "深部脊柱起立筋",
+      "脊柱起立筋",
+      "腰方形筋",
+      "大殿筋",
+      "腹直筋",
+      "ヒラメ筋"
+     ]
+    },
+    {
+     "id": "cat05_loc03",
+     "name": "殿部",
+     "muscles": [
+      "小殿筋",
+      "中殿筋",
+      "大殿筋",
+      "腰方形筋",
+      "脊柱起立筋",
+      "半腱様筋",
+      "半膜様筋",
+      "梨状筋",
+      "ヒラメ筋"
+     ]
+    },
+    {
+     "id": "cat05_loc04",
+     "name": "股関節",
+     "muscles": [
+      "外側広筋",
+      "小殿筋",
+      "梨状筋",
+      "腰方形筋",
+      "大腿筋膜張筋",
+      "大殿筋"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cat06",
+   "name": "股関節、大腿、膝の痛み",
+   "locations": [
+    {
+     "id": "cat06_loc01",
+     "name": "鼠径部",
+     "muscles": [
+      "恥骨筋",
+      "長内転筋",
+      "大内転筋",
+      "腹直筋",
+      "腹斜筋",
+      "腰筋"
+     ]
+    },
+    {
+     "id": "cat06_loc02",
+     "name": "大腿外側と股関節",
+     "muscles": [
+      "小殿筋",
+      "外側広筋",
+      "梨状筋",
+      "腰方形筋",
+      "大腿筋膜張筋",
+      "大殿筋"
+     ]
+    },
+    {
+     "id": "cat06_loc03",
+     "name": "大腿内側",
+     "muscles": [
+      "恥骨筋",
+      "内側広筋",
+      "薄筋",
+      "大内転筋"
+     ]
+    },
+    {
+     "id": "cat06_loc04",
+     "name": "大腿前面",
+     "muscles": [
+      "長内転筋",
+      "腰筋",
+      "大内転筋",
+      "中間広筋",
+      "恥骨筋",
+      "縫工筋",
+      "腰方形筋",
+      "腹直筋"
+     ]
+    },
+    {
+     "id": "cat06_loc05",
+     "name": "大腿後面",
+     "muscles": [
+      "小殿筋",
+      "半腱様筋",
+      "半膜様筋",
+      "大腿二頭筋",
+      "梨状筋"
+     ]
+    },
+    {
+     "id": "cat06_loc06",
+     "name": "膝内側",
+     "muscles": [
+      "内側広筋",
+      "薄筋",
+      "大腿直筋",
+      "縫工筋",
+      "長内転筋"
+     ]
+    },
+    {
+     "id": "cat06_loc07",
+     "name": "膝外側",
+     "muscles": [
+      "外側広筋"
+     ]
+    },
+    {
+     "id": "cat06_loc08",
+     "name": "膝前面",
+     "muscles": [
+      "大腿直筋",
+      "内側広筋",
+      "長内転筋"
+     ]
+    },
+    {
+     "id": "cat06_loc09",
+     "name": "膝窩部",
+     "muscles": [
+      "腓腹筋",
+      "大腿二頭筋",
+      "膝窩筋",
+      "半腱様筋",
+      "半膜様筋",
+      "ヒラメ筋",
+      "足底筋"
+     ]
+    },
+    {
+     "id": "cat06_loc10",
+     "name": "大腿の痺れ",
+     "muscles": [
+      "縫工筋",
+      "腰筋",
+      "小殿筋"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cat07",
+   "name": "下腿、足首の痛み",
+   "locations": [
+    {
+     "id": "cat07_loc01",
+     "name": "下腿前面",
+     "muscles": [
+      "前脛骨筋",
+      "長内転筋"
+     ]
+    },
+    {
+     "id": "cat07_loc02",
+     "name": "下腿後面",
+     "muscles": [
+      "ヒラメ筋",
+      "小殿筋",
+      "腓腹筋",
+      "半腱様筋",
+      "半膜様筋",
+      "長趾屈筋",
+      "後脛骨筋",
+      "足底筋"
+     ]
+    },
+    {
+     "id": "cat07_loc03",
+     "name": "下腿側面",
+     "muscles": [
+      "腓腹筋",
+      "小殿筋",
+      "長腓骨筋",
+      "短腓骨筋",
+      "外側広筋"
+     ]
+    },
+    {
+     "id": "cat07_loc04",
+     "name": "足首前面",
+     "muscles": [
+      "前脛骨筋",
+      "第三腓骨筋",
+      "長趾伸筋"
+     ]
+    },
+    {
+     "id": "cat07_loc05",
+     "name": "足首後面",
+     "muscles": [
+      "ヒラメ筋",
+      "後脛骨筋"
+     ]
+    },
+    {
+     "id": "cat07_loc06",
+     "name": "足首外側",
+     "muscles": [
+      "長腓骨筋",
+      "短腓骨筋",
+      "第三腓骨筋",
+      "小趾外転筋"
+     ]
+    },
+    {
+     "id": "cat07_loc07",
+     "name": "足首内側",
+     "muscles": [
+      "母趾外転筋",
+      "ヒラメ筋",
+      "腓腹筋",
+      "長趾屈筋"
+     ]
+    },
+    {
+     "id": "cat07_loc08",
+     "name": "下腿や足の痺れ",
+     "muscles": [
+      "小殿筋",
+      "梨状筋",
+      "骨間筋",
+      "ヒラメ筋",
+      "長腓骨筋",
+      "長趾伸筋",
+      "母趾外転筋",
+      "母趾内転筋",
+      "長母趾屈筋"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cat08",
+   "name": "足の痛み",
+   "locations": [
+    {
+     "id": "cat08_loc01",
+     "name": "母趾底面",
+     "muscles": [
+      "長母趾屈筋",
+      "短母趾屈筋",
+      "後脛骨筋"
+     ]
+    },
+    {
+     "id": "cat08_loc02",
+     "name": "母趾以外の足趾底面",
+     "muscles": [
+      "長趾屈筋",
+      "後脛骨筋"
+     ]
+    },
+    {
+     "id": "cat08_loc03",
+     "name": "アーチ部と中足部",
+     "muscles": [
+      "腓腹筋",
+      "長趾屈筋",
+      "母趾内転筋",
+      "ヒラメ筋",
+      "母趾外転筋",
+      "骨間筋",
+      "後脛骨筋"
+     ]
+    },
+    {
+     "id": "cat08_loc04",
+     "name": "中足骨頭部",
+     "muscles": [
+      "長母趾屈筋",
+      "短趾屈筋",
+      "母趾内転筋",
+      "骨間筋",
+      "小趾外転筋",
+      "長趾屈筋",
+      "後脛骨筋",
+      "短小趾屈筋"
+     ]
+    },
+    {
+     "id": "cat08_loc05",
+     "name": "かかと",
+     "muscles": [
+      "ヒラメ筋",
+      "足底方形筋",
+      "母趾外転筋",
+      "後脛骨筋",
+      "小趾外転筋",
+      "腓腹筋"
+     ]
+    },
+    {
+     "id": "cat08_loc06",
+     "name": "足の甲",
+     "muscles": [
+      "短趾伸筋",
+      "短母趾伸筋",
+      "長母趾伸筋",
+      "長趾伸筋",
+      "短母趾屈筋",
+      "骨間筋",
+      "前脛骨筋"
+     ]
+    },
+    {
+     "id": "cat08_loc07",
+     "name": "母趾以外の足趾背面",
+     "muscles": [
+      "骨間筋",
+      "長趾伸筋"
+     ]
+    },
+    {
+     "id": "cat08_loc08",
+     "name": "母趾背面",
+     "muscles": [
+      "前脛骨筋",
+      "長母趾伸筋",
+      "短母趾屈筋"
+     ]
+    },
+    {
+     "id": "cat08_loc09",
+     "name": "足趾の痺れ",
+     "muscles": [
+      "長母趾屈筋",
+      "骨間筋",
+      "長腓骨筋",
+      "母趾外転筋",
+      "母趾内転筋",
+      "長趾伸筋"
+     ]
+    }
+   ]
+  }
+ ],
+ "muscles": {
+  "ヒラメ筋": {
+   "objectNames": [
+    "Soleus muscle.l",
+    "Soleus muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "かかとの痛み、足の裏の痛み、ふくらはぎの痙攣、腰痛",
+   "cause": "ハイヒール、冷え、長時間の立ち仕事",
+   "treatment": "ラクロスボールをふくらはぎの下に置き、反対側の脚を乗せて荷重する",
+   "careSource": "腓腹筋/ヒラメ筋",
+   "inherited": false
+  },
+  "三角筋中部": {
+   "objectNames": [
+    "Acromial part of deltoid muscle.l",
+    "Acromial part of deltoid muscle.r",
+    "Clavicular part of deltoid muscle.l",
+    "Clavicular part of deltoid muscle.r",
+    "Scapular spinal part of deltoid muscle.l",
+    "Scapular spinal part of deltoid muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "前部・中部・後部それぞれの場所自体の痛み（転位しないのが特徴）",
+   "cause": "水泳、ウェイトリフティング、転倒による衝撃",
+   "treatment": "ラクロスボールを壁と肩の間に挟み、痛む箇所の上で転がす",
+   "careSource": "三角筋",
+   "inherited": false
+  },
+  "三角筋前部": {
+   "objectNames": [
+    "Acromial part of deltoid muscle.l",
+    "Acromial part of deltoid muscle.r",
+    "Clavicular part of deltoid muscle.l",
+    "Clavicular part of deltoid muscle.r",
+    "Scapular spinal part of deltoid muscle.l",
+    "Scapular spinal part of deltoid muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "前部・中部・後部それぞれの場所自体の痛み（転位しないのが特徴）",
+   "cause": "水泳、ウェイトリフティング、転倒による衝撃",
+   "treatment": "ラクロスボールを壁と肩の間に挟み、痛む箇所の上で転がす",
+   "careSource": "三角筋",
+   "inherited": false
+  },
+  "三角筋後部": {
+   "objectNames": [
+    "Acromial part of deltoid muscle.l",
+    "Acromial part of deltoid muscle.r",
+    "Clavicular part of deltoid muscle.l",
+    "Clavicular part of deltoid muscle.r",
+    "Scapular spinal part of deltoid muscle.l",
+    "Scapular spinal part of deltoid muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "前部・中部・後部それぞれの場所自体の痛み（転位しないのが特徴）",
+   "cause": "水泳、ウェイトリフティング、転倒による衝撃",
+   "treatment": "ラクロスボールを壁と肩の間に挟み、痛む箇所の上で転がす",
+   "careSource": "三角筋",
+   "inherited": false
+  },
+  "上唇挙筋": {
+   "objectNames": [
+    "Levator labii superioris.l",
+    "Levator labii superioris.r"
+   ],
+   "notModeled": false,
+   "symptom": "鼻の脇、鼻梁、顔面中央の痛み、アレルギー様の症状（鼻水、くしゃみなど）",
+   "cause": "顔の表情、感情的な緊張",
+   "treatment": "指先で目の下から頬骨に沿って、短く深いストロークでマッサージする",
+   "careSource": "上唇挙筋 & 頬骨筋",
+   "inherited": false
+  },
+  "上後鋸筋": {
+   "objectNames": [
+    "Serratus posterior superior muscle.l",
+    "Serratus posterior superior muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "肩甲骨の奥の痛み、肘や手首・小指側の痛み",
+   "cause": "激しい呼吸（喘息、咳）、重い荷物の運搬",
+   "treatment": "セラ・ケインやラクロスボールで、肩甲骨の内側（深部）を狙って圧を加える",
+   "careSource": null,
+   "inherited": false
+  },
+  "上腕三頭筋": {
+   "objectNames": [
+    "Lateral head of triceps brachii.l",
+    "Lateral head of triceps brachii.r",
+    "Long head of triceps brachii.l",
+    "Long head of triceps brachii.r",
+    "Medial head of triceps brachii.l",
+    "Medial head of triceps brachii.r"
+   ],
+   "notModeled": false,
+   "symptom": "肩、背中、肘の外側（ゴルフ肘様）への痛み",
+   "cause": "クライミング、重い荷物の保持、長時間のデスクワーク",
+   "treatment": "二の腕の内側の縁（第1ポイント）にゴルフボールを当て、壁を利用して転がす",
+   "careSource": null,
+   "inherited": false
+  },
+  "上腕二頭筋": {
+   "objectNames": [
+    "Long head of biceps brachii.l",
+    "Long head of biceps brachii.r",
+    "Short head of biceps brachii.l",
+    "Short head of biceps brachii.r"
+   ],
+   "notModeled": false,
+   "symptom": "肩の前面、肘の前面の痛み",
+   "cause": "重い荷物の挙上、懸垂、テニス",
+   "treatment": "反対側の手の指で、力こぶの筋肉の中央をしごく",
+   "careSource": null,
+   "inherited": false
+  },
+  "上腕筋": {
+   "objectNames": [
+    "Brachialis muscle.l",
+    "Brachialis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "母指の付け根の痛み、肩の前面の痛み",
+   "cause": "重い荷物の運搬、キーボード入力、バイオリン演奏",
+   "treatment": "上腕二頭筋の脇から指を押し込み、骨に対してしごく",
+   "careSource": null,
+   "inherited": false
+  },
+  "下後鋸筋": {
+   "objectNames": [
+    "Serratus posterior inferior muscle.l",
+    "Serratus posterior inferior muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "腰や背中の局所的な鋭い痛み",
+   "cause": "中腰での作業、背中をひねる動作",
+   "treatment": "セラ・ケインやラクロスボールを使い、肋骨の下部付近をマッサージする",
+   "careSource": null,
+   "inherited": false
+  },
+  "中殿筋": {
+   "objectNames": [
+    "Gluteus medius muscle.l",
+    "Gluteus medius muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "腰痛、臀部から脚の外側・背面への痛み（偽性の坐骨神経痛）",
+   "cause": "長時間の起立、片脚立ちの癖、財布を後ろポケットに入れる",
+   "treatment": "ラクロスボールを壁または床で使い、骨盤の外側を念入りに探る",
+   "careSource": "中殿筋/小殿筋",
+   "inherited": false
+  },
+  "中間広筋": {
+   "objectNames": [
+    "Vastus intermedius muscle.l",
+    "Vastus intermedius muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "膝前面の痛み、膝崩れ（膝に力が入らない）、歩行困難",
+   "cause": "階段の上り下り、膝を深く曲げる姿勢、不慣れな運動",
+   "treatment": "フォームローラーやマッサージガンで、太もも前面をストローク",
+   "careSource": "大腿四頭筋",
+   "inherited": true
+  },
+  "側頭筋": {
+   "objectNames": [
+    "Temporalis muscle.l",
+    "Temporalis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "こめかみ全体の痛み、上の歯の痛み、歯の知覚過敏",
+   "cause": "顎の食いしばり、ガムの噛みすぎ、ストレス",
+   "treatment": "指先をこめかみに当て、口を軽く開閉しながら短いストローク",
+   "careSource": null,
+   "inherited": false
+  },
+  "僧帽筋": {
+   "objectNames": [
+    "Ascending part of trapezius muscle.l",
+    "Ascending part of trapezius muscle.r",
+    "Descending part of trapezius muscle.l",
+    "Descending part of trapezius muscle.r",
+    "Transverse part of trapezius muscle.l",
+    "Transverse part of trapezius muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "こめかみ・顎の角への痛み（緊張型頭痛）、首の付け根の凝り",
+   "cause": "精神的な緊張、猫背、肘掛けのない椅子での作業、重いリュック",
+   "treatment": "セラ・ケインやラクロスボールで、肩の上部線維を壁に向かって圧迫",
+   "careSource": null,
+   "inherited": false
+  },
+  "内側広筋": {
+   "objectNames": [
+    "Vastus medialis muscle.l",
+    "Vastus medialis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "膝前面の痛み、膝崩れ（膝に力が入らない）、歩行困難",
+   "cause": "階段の上り下り、膝を深く曲げる姿勢、不慣れな運動",
+   "treatment": "フォームローラーやマッサージガンで、太もも前面をストローク",
+   "careSource": "大腿四頭筋",
+   "inherited": true
+  },
+  "内側翼突筋": {
+   "objectNames": [
+    "Medial pterygoid muscle.l",
+    "Medial pterygoid muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "顎関節症様の痛み、耳の詰まり感、鼻水・鼻詰まり（鼻の症状）",
+   "cause": "歯ぎしり、食いしばり、長時間の歯科治療",
+   "treatment": "指先を口の中に入れ、頬の奥や上顎の奥にある圧痛点を優しく押す",
+   "careSource": "翼突筋（内・外）",
+   "inherited": true
+  },
+  "円回内筋": {
+   "objectNames": [
+    "Deep head of pronator teres.l",
+    "Deep head of pronator teres.r",
+    "Superficial head of pronator teres.l",
+    "Superficial head of pronator teres.r"
+   ],
+   "notModeled": false,
+   "symptom": "肘の内側、手首の親指側の痛みとしびれ",
+   "cause": "ドライバーでの作業、テニスのトップスピン",
+   "treatment": "肘の内側の結節を、反対側の親指で深くゆっくりとしごく",
+   "careSource": null,
+   "inherited": false
+  },
+  "前脛骨筋": {
+   "objectNames": [
+    "Tibialis anterior muscle.l",
+    "Tibialis anterior muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "足首前面の痛み、足の甲・母趾の背面の痛み、つまづきやすさ",
+   "cause": "不整地での歩行、靴の不適合、長時間の運転",
+   "treatment": "ゴルフボールを床に置き、すねの外側の筋肉を押し当てて転がす",
+   "careSource": null,
+   "inherited": false
+  },
+  "前腕伸筋群": {
+   "objectNames": [
+    "Extensor carpi radialis brevis.l",
+    "Extensor carpi radialis brevis.r",
+    "Extensor carpi radialis longus.l",
+    "Extensor carpi radialis longus.r",
+    "Extensor digiti minimi.l",
+    "Extensor digiti minimi.r",
+    "Extensor digitorum.l",
+    "Extensor digitorum.r",
+    "Extensor indicis.l",
+    "Extensor indicis.r",
+    "Extensor pollicis brevis.l",
+    "Extensor pollicis brevis.r",
+    "Extensor pollicis longus.l",
+    "Extensor pollicis longus.r",
+    "Humeral head of extensor carpi ulnaris.l",
+    "Humeral head of extensor carpi ulnaris.r",
+    "Ulnar head of extensor carpi ulnaris.l",
+    "Ulnar head of extensor carpi ulnaris.r"
+   ],
+   "notModeled": false,
+   "symptom": "肘の外側、手首の背面、指の背面の痛み、握力低下",
+   "cause": "長時間のタイピング、テニス、編み物、ピアノ演奏",
+   "treatment": "ラクロスボールを壁と腕の間に挟み、ゆっくりと回転させる",
+   "careSource": null,
+   "inherited": false
+  },
+  "前腕屈筋群": {
+   "objectNames": [
+    "Deep head of flexor pollicis brevis.l",
+    "Deep head of flexor pollicis brevis.r",
+    "Flexor carpi radialis.l",
+    "Flexor carpi radialis.r",
+    "Flexor digiti minimi of hand.l",
+    "Flexor digiti minimi of hand.r",
+    "Flexor digitorum profundus.l",
+    "Flexor digitorum profundus.r",
+    "Flexor pollicis longus.l",
+    "Flexor pollicis longus.r",
+    "Humeral head of flexor carpi ulnaris.l",
+    "Humeral head of flexor carpi ulnaris.r",
+    "Humero-ulnar head of flexor digitorum superficialis.l",
+    "Humero-ulnar head of flexor digitorum superficialis.r",
+    "Radial head of flexor digitorum superficialis.l",
+    "Radial head of flexor digitorum superficialis.r",
+    "Superficial head of flexor pollicis brevis.l",
+    "Superficial head of flexor pollicis brevis.r",
+    "Ulnar head of flexor carpi ulnaris.l",
+    "Ulnar head of flexor carpi ulnaris.r"
+   ],
+   "notModeled": false,
+   "symptom": "肘の内側、手首の前面、手のひら、指の掌側の痛み",
+   "cause": "剪定ばさみの使用、重いハンドル操作、ゴルフ",
+   "treatment": "机の上に置いたゴルフボールに前腕を乗せ、体重をかけて転がす",
+   "careSource": null,
+   "inherited": false
+  },
+  "前鋸筋": {
+   "objectNames": [
+    "Serratus anterior muscle.l",
+    "Serratus anterior muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "脇腹の痛み（脇の甘い痛み）、深呼吸時の痛み、背中の痛み",
+   "cause": "激しいランニング、激しい咳、懸垂、水泳",
+   "treatment": "テニスボールを壁と脇の間に挟み、ゆっくりと体重をかける",
+   "careSource": null,
+   "inherited": false
+  },
+  "前頭筋": {
+   "objectNames": [
+    "Frontalis muscle.l",
+    "Frontalis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "おでこ（前頭部）や頭頂部の痛み",
+   "cause": "情動的なストレス、眉を上げたり顔をしかめたりする動作",
+   "treatment": "指先を使って額を非常に優しくマッサージする",
+   "careSource": null,
+   "inherited": false
+  },
+  "半腱様筋": {
+   "objectNames": [
+    "Semitendinosus muscle.l",
+    "Semitendinosus muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "膝の裏側の痛み、臀部の付け根の痛み",
+   "cause": "固い椅子の縁による圧迫、長時間の着座、運動不足",
+   "treatment": "ラクロスボールを椅子と太ももの裏の間に挟み、ゆっくり脚を動かす",
+   "careSource": "ハムストリング",
+   "inherited": true
+  },
+  "半膜様筋": {
+   "objectNames": [
+    "Semimembranosus muscle.l",
+    "Semimembranosus muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "膝の裏側の痛み、臀部の付け根の痛み",
+   "cause": "固い椅子の縁による圧迫、長時間の着座、運動不足",
+   "treatment": "ラクロスボールを椅子と太ももの裏の間に挟み、ゆっくり脚を動かす",
+   "careSource": "ハムストリング",
+   "inherited": true
+  },
+  "咬筋": {
+   "objectNames": [
+    "Deep part of masseter.l",
+    "Deep part of masseter.r",
+    "Superficial part of masseter.l",
+    "Superficial part of masseter.r"
+   ],
+   "notModeled": false,
+   "symptom": "上下の歯の痛み、耳の奥の痛み、顎の関節の違和感",
+   "cause": "歯ぎしり、ガムの噛みすぎ、歯科治療後の緊張",
+   "treatment": "指先を頬に当て、頬骨から顎のラインに向けて垂直にしごく",
+   "careSource": null,
+   "inherited": false
+  },
+  "回外筋": {
+   "objectNames": [
+    "Supinator.l",
+    "Supinator.r"
+   ],
+   "notModeled": false,
+   "symptom": "肘の外側の痛み、母指の付け根のしびれ",
+   "cause": "テニスのバックハンド、ネジを強く締める動作",
+   "treatment": "肘のすぐ下の外側にある硬い結節を、反対側の指で深く押す",
+   "careSource": null,
+   "inherited": false
+  },
+  "回旋筋": {
+   "objectNames": [
+    "Rotatores.l",
+    "Rotatores.r"
+   ],
+   "notModeled": false,
+   "symptom": "脊椎に沿ったピンポイントの痛み、背骨がずれている感覚",
+   "cause": "重い物の挙上、姿勢の不良（猫背、首を突き出す姿勢）",
+   "treatment": "ラクロスボールを脊柱のすぐ脇（数センチ外側）に置き、自重で圧をかける",
+   "careSource": "多裂筋/回旋筋",
+   "inherited": false
+  },
+  "外側広筋": {
+   "objectNames": [
+    "Vastus lateralis muscle.l",
+    "Vastus lateralis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "膝前面の痛み、膝崩れ（膝に力が入らない）、歩行困難",
+   "cause": "階段の上り下り、膝を深く曲げる姿勢、不慣れな運動",
+   "treatment": "フォームローラーやマッサージガンで、太もも前面をストローク",
+   "careSource": "大腿四頭筋",
+   "inherited": true
+  },
+  "外側翼突筋": {
+   "objectNames": [
+    "Inferior head of lateral pterygoid muscle.l",
+    "Inferior head of lateral pterygoid muscle.r",
+    "Superior head of lateral pterygoid muscle.l",
+    "Superior head of lateral pterygoid muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "顎関節症様の痛み、耳の詰まり感、鼻水・鼻詰まり（鼻の症状）",
+   "cause": "歯ぎしり、食いしばり、長時間の歯科治療",
+   "treatment": "指先を口の中に入れ、頬の奥や上顎の奥にある圧痛点を優しく押す",
+   "careSource": "翼突筋（内・外）",
+   "inherited": true
+  },
+  "多裂筋": {
+   "objectNames": [
+    "Multifidus colli muscle.l",
+    "Multifidus colli muscle.r",
+    "Multifidus lumborum muscle.l",
+    "Multifidus lumborum muscle.r",
+    "Multifidus thoracis muscle.l",
+    "Multifidus thoracis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "脊椎に沿ったピンポイントの痛み、背骨がずれている感覚",
+   "cause": "重い物の挙上、姿勢の不良（猫背、首を突き出す姿勢）",
+   "treatment": "ラクロスボールを脊柱のすぐ脇（数センチ外側）に置き、自重で圧をかける",
+   "careSource": "多裂筋/回旋筋",
+   "inherited": false
+  },
+  "大内転筋": {
+   "objectNames": [
+    "Adductor magnus.l",
+    "Adductor magnus.r"
+   ],
+   "notModeled": false,
+   "symptom": "鼠径部（脚の付け根）の痛み、膝の内側の痛み ",
+   "cause": "足を滑らせる、長時間の運転、内転筋の過度な筋トレ",
+   "treatment": "座った状態で、膝の上に置いたラクロスボールや自らの肘を使って太ももの内側をしごく",
+   "careSource": "内転筋群",
+   "inherited": true
+  },
+  "大円筋": {
+   "objectNames": [
+    "Teres major muscle.l",
+    "Teres major muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "肩の後面（三角筋後部）への鋭い痛み",
+   "cause": "肩の酷使、腕を下に強く引く動作",
+   "treatment": "脇の下の後方にある筋肉の塊を、指やボールで挟むようにマッサージ",
+   "careSource": null,
+   "inherited": false
+  },
+  "大殿筋": {
+   "objectNames": [
+    "Gluteus maximus muscle.l",
+    "Gluteus maximus muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "臀部全体の痛み、椅子から立ち上がる時の困難さ",
+   "cause": "長時間の着座、坂道を上る動作、急な激しい運動",
+   "treatment": "ラクロスボールを床に置き、臀部を乗せてゆっくりと圧を加える",
+   "careSource": null,
+   "inherited": false
+  },
+  "大胸筋": {
+   "objectNames": [
+    "Clavicular head of pectoralis major muscle.l",
+    "Clavicular head of pectoralis major muscle.r",
+    "Sternocostal head of pectoralis major muscle.l",
+    "Sternocostal head of pectoralis major muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "胸の痛み、肩の前面の痛み、肘の内側の痛み、不整脈への影響",
+   "cause": "猫背、重い荷物の保持、激しい運動後のケア不足",
+   "treatment": "テニスボールを壁と胸の間に挟み、円を描くように動かす",
+   "careSource": null,
+   "inherited": false
+  },
+  "大腿二頭筋": {
+   "objectNames": [
+    "Long head of biceps femoris.l",
+    "Long head of biceps femoris.r",
+    "Short head of biceps femoris.l",
+    "Short head of biceps femoris.r"
+   ],
+   "notModeled": false,
+   "symptom": "膝の裏側の痛み、臀部の付け根の痛み",
+   "cause": "固い椅子の縁による圧迫、長時間の着座、運動不足",
+   "treatment": "ラクロスボールを椅子と太ももの裏の間に挟み、ゆっくり脚を動かす",
+   "careSource": "ハムストリング",
+   "inherited": true
+  },
+  "大腿直筋": {
+   "objectNames": [
+    "Rectus femoris muscle.l",
+    "Rectus femoris muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "膝前面の痛み、膝崩れ（膝に力が入らない）、歩行困難",
+   "cause": "階段の上り下り、膝を深く曲げる姿勢、不慣れな運動",
+   "treatment": "フォームローラーやマッサージガンで、太もも前面をストローク",
+   "careSource": "大腿四頭筋",
+   "inherited": true
+  },
+  "大腿筋膜張筋": {
+   "objectNames": [
+    "Tensor fasciae latae.l",
+    "Tensor fasciae latae.r"
+   ],
+   "notModeled": false,
+   "symptom": "股関節の痛み、歩行時の違和感、後ろに寄りかかれない",
+   "cause": "過度のランニング、長時間の着座（短縮）",
+   "treatment": "ラクロスボールを床に置き、骨盤の外側（大転子の少し前）を乗せて圧を加える",
+   "careSource": null,
+   "inherited": false
+  },
+  "小円筋": {
+   "objectNames": [
+    "Teres minor muscle.l",
+    "Teres minor muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "三角筋後部の狭い範囲の鋭い痛み、薬指・小指のしびれ",
+   "cause": "腕を高く上げて保持する動作（クライミング、投球など）",
+   "treatment": "肩甲骨の外側の縁（脇の後ろ）にラクロスボールを当て、壁で転がす",
+   "careSource": null,
+   "inherited": false
+  },
+  "小殿筋": {
+   "objectNames": [
+    "Gluteus minimus muscle.l",
+    "Gluteus minimus muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "腰痛、臀部から脚の外側・背面への痛み（偽性の坐骨神経痛）",
+   "cause": "長時間の起立、片脚立ちの癖、財布を後ろポケットに入れる",
+   "treatment": "ラクロスボールを壁または床で使い、骨盤の外側を念入りに探る",
+   "careSource": "中殿筋/小殿筋",
+   "inherited": false
+  },
+  "小胸筋": {
+   "objectNames": [
+    "Pectoralis minor muscle.l",
+    "Pectoralis minor muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "肩の前面、腕、手への痛みとしびれ（偽性の手根管症候群）",
+   "cause": "猫背、重いリュック、激しい咳、胸式呼吸",
+   "treatment": "鎖骨の下、脇の近くを指先またはマッサージガンで優しくストローク",
+   "careSource": null,
+   "inherited": false
+  },
+  "小趾外転筋": {
+   "objectNames": [
+    "Abductor digiti minimi of foot.l",
+    "Abductor digiti minimi of foot.r"
+   ],
+   "notModeled": false,
+   "symptom": "かかとの外側、足の側面の痛み",
+   "cause": "靴の不適合（狭すぎる靴）、不整地での歩行",
+   "treatment": "ゴルフボールを床に置き、足の裏の外側の縁を乗せて転がす",
+   "careSource": null,
+   "inherited": false
+  },
+  "尺側手根屈筋": {
+   "objectNames": [
+    "Humeral head of flexor carpi ulnaris.l",
+    "Humeral head of flexor carpi ulnaris.r",
+    "Ulnar head of flexor carpi ulnaris.l",
+    "Ulnar head of flexor carpi ulnaris.r"
+   ],
+   "notModeled": false,
+   "symptom": "肘の内側、手首の前面、手のひら、指の掌側の痛み",
+   "cause": "剪定ばさみの使用、重いハンドル操作、ゴルフ",
+   "treatment": "机の上に置いたゴルフボールに前腕を乗せ、体重をかけて転がす",
+   "careSource": "前腕屈筋群",
+   "inherited": true
+  },
+  "広背筋": {
+   "objectNames": [
+    "Latissimus dorsi muscle.l",
+    "Latissimus dorsi muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "中背部の痛み、脇の下から腕の内側・小指にかけての痛み",
+   "cause": "懸垂、重い荷物を下から持ち上げる、テニス",
+   "treatment": "脇の下の後方にある筋肉の塊を指で挟むか、ボールで壁に押し当てる",
+   "careSource": null,
+   "inherited": false
+  },
+  "広頸筋": {
+   "objectNames": [
+    "Platysma.l",
+    "Platysma.r"
+   ],
+   "notModeled": false,
+   "symptom": "頬から首、喉、胸の上部にかけてのチクチクした広い範囲の痛み",
+   "cause": "習慣的な表情、首の筋肉の酷使",
+   "treatment": "親指と他の指で、喉頭部全体の筋肉を挟んでこねるようにマッサージする",
+   "careSource": null,
+   "inherited": false
+  },
+  "後小後頭直筋": {
+   "objectNames": [
+    "Rectus posterior minor capitis muscle.l",
+    "Rectus posterior minor capitis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "頭の深部の痛み、眼精疲労、頭全体が締め付けられる感覚",
+   "cause": "不適切な眼鏡の使用、猫背、冷え",
+   "treatment": "仰向けでテニスボール（または2結びのボール）を首の付け根に当て、頭の重みで圧を加える",
+   "careSource": "後頭下筋群",
+   "inherited": true
+  },
+  "後脛骨筋": {
+   "objectNames": [
+    "Tibialis posterior muscle.l",
+    "Tibialis posterior muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "アキレス腱の痛み、足の裏（土踏まず）の痛み ",
+   "cause": "扁平足、合わない靴でのウォーキング",
+   "treatment": "ふくらはぎの深部にあるため、腓腹筋の脇から指を深く差し込んで処置する",
+   "careSource": null,
+   "inherited": false
+  },
+  "後頭下筋群": {
+   "objectNames": [
+    "Rectus posterior major capitis muscle.l",
+    "Rectus posterior major capitis muscle.r",
+    "Rectus posterior minor capitis muscle.l",
+    "Rectus posterior minor capitis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "頭の深部の痛み、眼精疲労、頭全体が締め付けられる感覚",
+   "cause": "不適切な眼鏡の使用、猫背、冷え",
+   "treatment": "仰向けでテニスボール（または2結びのボール）を首の付け根に当て、頭の重みで圧を加える",
+   "careSource": null,
+   "inherited": false
+  },
+  "恥骨筋": {
+   "objectNames": [
+    "Pectineus muscle.l",
+    "Pectineus muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "鼠径部（脚の付け根）の痛み、膝の内側の痛み ",
+   "cause": "足を滑らせる、長時間の運転、内転筋の過度な筋トレ",
+   "treatment": "座った状態で、膝の上に置いたラクロスボールや自らの肘を使って太ももの内側をしごく",
+   "careSource": "内転筋群",
+   "inherited": true
+  },
+  "指伸筋": {
+   "objectNames": [
+    "Extensor digitorum.l",
+    "Extensor digitorum.r"
+   ],
+   "notModeled": false,
+   "symptom": "肘の外側、手首の背面、指の背面の痛み、握力低下",
+   "cause": "長時間のタイピング、テニス、編み物、ピアノ演奏",
+   "treatment": "ラクロスボールを壁と腕の間に挟み、ゆっくりと回転させる",
+   "careSource": "前腕伸筋群",
+   "inherited": true
+  },
+  "指屈筋": {
+   "objectNames": [
+    "Flexor digitorum profundus.l",
+    "Flexor digitorum profundus.r",
+    "Humero-ulnar head of flexor digitorum superficialis.l",
+    "Humero-ulnar head of flexor digitorum superficialis.r",
+    "Radial head of flexor digitorum superficialis.l",
+    "Radial head of flexor digitorum superficialis.r"
+   ],
+   "notModeled": false,
+   "symptom": "肘の内側、手首の前面、手のひら、指の掌側の痛み",
+   "cause": "剪定ばさみの使用、重いハンドル操作、ゴルフ",
+   "treatment": "机の上に置いたゴルフボールに前腕を乗せ、体重をかけて転がす",
+   "careSource": "前腕屈筋群",
+   "inherited": true
+  },
+  "斜角筋": {
+   "objectNames": [
+    "Scalenus anterior muscle.l",
+    "Scalenus anterior muscle.r",
+    "Scalenus medius muscle.l",
+    "Scalenus medius muscle.r",
+    "Scalenus posterior muscle.l",
+    "Scalenus posterior muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "胸、上背部、肩、腕、手への驚くほど広い範囲の痛みとしびれ（偽性の胸郭出口症候群）",
+   "cause": "ストレス、胸式呼吸、前かがみのPC作業、重い荷物を運ぶ動作",
+   "treatment": "指先で胸鎖乳突筋を避け、その奥にある頸椎に押し当てるようにしごく",
+   "careSource": null,
+   "inherited": false
+  },
+  "板状筋": {
+   "objectNames": [
+    "Splenius capitis muscle.l",
+    "Splenius capitis muscle.r",
+    "Splenius colli muscle.l",
+    "Splenius colli muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "頭蓋内のズキズキする痛み、頭頂部への関連痛、目の奥の痛み",
+   "cause": "首を回す動作の酷使、長時間の不良姿勢、冷え",
+   "treatment": "仰向けで指やテニスボールを使い、頭の重みを利用して圧を加える",
+   "careSource": null,
+   "inherited": false
+  },
+  "梨状筋": {
+   "objectNames": [
+    "Piriformis muscle.l",
+    "Piriformis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "坐骨神経痛様のしびれ、臀部・鼠径部の痛み",
+   "cause": "転倒、急な方向転換を伴うスポーツ、長時間の運転",
+   "treatment": "セラ・ケインやボールを使い、大転子と仙骨の間の深部を圧迫する",
+   "careSource": null,
+   "inherited": false
+  },
+  "棘上筋": {
+   "objectNames": [
+    "Supraspinatus muscle.l",
+    "Supraspinatus muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "肩の外側深部の痛み、腕を上げる時の引っかかりやパキパキ鳴る音",
+   "cause": "重い荷物を運ぶ、肘掛けのないデスク作業",
+   "treatment": "セラ・ケインで、肩甲骨の上の縁（棘上窩）にあるポイントを垂直に押さえる",
+   "careSource": null,
+   "inherited": false
+  },
+  "棘下筋": {
+   "objectNames": [
+    "Infraspinatus muscle.l",
+    "Infraspinatus muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "肩前面深部の強い痛み（第1位の原因）、腕を後ろに回せない",
+   "cause": "腕を前や上に伸ばし続ける動作、ハンドルの上部を握る運転",
+   "treatment": "ラクロスボールを壁と肩甲骨の間に挟み、ゆっくりと体重をかける",
+   "careSource": null,
+   "inherited": false
+  },
+  "横隔膜": {
+   "objectNames": [
+    "Diaphragm"
+   ],
+   "notModeled": false,
+   "symptom": "脇腹の痛み（脇腹痛）、深呼吸や咳をした時の痛み",
+   "cause": "姿勢のゆがみ、外科手術後、激しい呼吸",
+   "treatment": "肋骨の間に指先を当て、短いストロークで優しく筋肉をほぐす",
+   "careSource": "肋間筋/横隔膜",
+   "inherited": false
+  },
+  "母指内転筋": {
+   "objectNames": [
+    "Oblique head of adductor pollicis.l",
+    "Oblique head of adductor pollicis.r",
+    "Transverse head of adductor pollicis.l",
+    "Transverse head of adductor pollicis.r"
+   ],
+   "notModeled": false,
+   "symptom": "親指の付け根や、親指と人差し指の間の水かき部分の痛み",
+   "cause": "物をつまむ動作、筆記、ハサミの繰り返し使用",
+   "treatment": "水かき部分の筋肉を反対側の手で挟み、こねるようにマッサージする",
+   "careSource": null,
+   "inherited": false
+  },
+  "母指対立筋": {
+   "objectNames": [
+    "Opponens pollicis muscle.l",
+    "Opponens pollicis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "親指の付け根と手首の親指側の鋭い痛み",
+   "cause": "裁縫、執筆、ハサミの使用、草むしり",
+   "treatment": "ゴルフボールを机に置き、親指の付け根を押し当てて転がす",
+   "careSource": null,
+   "inherited": false
+  },
+  "母趾内転筋": {
+   "objectNames": [
+    "Oblique head of adductor hallucis.l",
+    "Oblique head of adductor hallucis.r",
+    "Transverse head of adductor hallucis.l",
+    "Transverse head of adductor hallucis.r"
+   ],
+   "notModeled": false,
+   "symptom": "土踏まずや足趾の付け根（中足部）の痛み、足の指のしびれ",
+   "cause": "サイズの合わない靴、長時間の立ち仕事",
+   "treatment": "ゴルフボールを使い、足の指の付け根付近やアーチ部を転がしてほぐす",
+   "careSource": null,
+   "inherited": false
+  },
+  "母趾外転筋": {
+   "objectNames": [
+    "Abductor hallucis.l",
+    "Abductor hallucis.r"
+   ],
+   "notModeled": false,
+   "symptom": "かかとの内側、土踏まず（アーチ）の痛み",
+   "cause": "扁平足、不適切な靴での歩行",
+   "treatment": "ゴルフボールを床に置き、かかとの内側寄りからアーチにかけてを転がす",
+   "careSource": null,
+   "inherited": false
+  },
+  "深部脊柱起立筋": {
+   "objectNames": [
+    "Multifidus colli muscle.l",
+    "Multifidus colli muscle.r",
+    "Multifidus lumborum muscle.l",
+    "Multifidus lumborum muscle.r",
+    "Multifidus thoracis muscle.l",
+    "Multifidus thoracis muscle.r",
+    "Rotatores.l",
+    "Rotatores.r"
+   ],
+   "notModeled": false,
+   "symptom": "背中から腰にかけての痛み、腹部への関連痛",
+   "cause": "重い物の挙上、長時間の不動姿勢、猫背",
+   "treatment": "ラクロスボール（または2結びのボール）を床に置き、自重で圧を加える",
+   "careSource": "脊柱起立筋",
+   "inherited": true
+  },
+  "烏口腕筋": {
+   "objectNames": [
+    "Coracobrachialis muscle.l",
+    "Coracobrachialis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "肩の前面、上腕の後ろ側、中指の先までの痛み、腕や手のしびれ",
+   "cause": "腕を酷使する動作（クライミング、水泳、投球など）、腕立て伏せ",
+   "treatment": "上腕の内側（脇に近い高い位置）に親指を押し込み、骨に対してしごく",
+   "careSource": null,
+   "inherited": false
+  },
+  "眼輪筋": {
+   "objectNames": [
+    "Orbital part of orbicularis oculi.l",
+    "Orbital part of orbicularis oculi.r",
+    "Palpebral part of orbicularis oculi.l",
+    "Palpebral part of orbicularis oculi.r"
+   ],
+   "notModeled": false,
+   "symptom": "目の上や周囲の痛み、視点が定まらなくなる感覚、まぶたの下垂",
+   "cause": "視力不良、目の酷使、神経の緊張",
+   "treatment": "目の周囲を指先で、非常に優しく丁寧に短いストロークで撫でる",
+   "careSource": null,
+   "inherited": false
+  },
+  "短小趾屈筋": {
+   "objectNames": [
+    "Flexor digiti minimi of foot.l",
+    "Flexor digiti minimi of foot.r"
+   ],
+   "notModeled": false,
+   "symptom": "足の指の痛み、しびれ、ハンマートゥ（指の変形） ",
+   "cause": "サイズの合わない靴、長時間の立ち仕事",
+   "treatment": "ゴルフボールを床に置き、足の裏や指の付け根を転がしてほぐす",
+   "careSource": "足趾伸筋/屈筋",
+   "inherited": true
+  },
+  "短橈側手根伸筋": {
+   "objectNames": [
+    "Extensor carpi radialis brevis.l",
+    "Extensor carpi radialis brevis.r"
+   ],
+   "notModeled": false,
+   "symptom": "肘の外側、手首の背面、指の背面の痛み、握力低下",
+   "cause": "長時間のタイピング、テニス、編み物、ピアノ演奏",
+   "treatment": "ラクロスボールを壁と腕の間に挟み、ゆっくりと回転させる",
+   "careSource": "前腕伸筋群",
+   "inherited": true
+  },
+  "短母趾伸筋": {
+   "objectNames": [
+    "Extensor hallucis brevis.l",
+    "Extensor hallucis brevis.r"
+   ],
+   "notModeled": false,
+   "symptom": "足の指の痛み、しびれ、ハンマートゥ（指の変形） ",
+   "cause": "サイズの合わない靴、長時間の立ち仕事",
+   "treatment": "ゴルフボールを床に置き、足の裏や指の付け根を転がしてほぐす",
+   "careSource": "足趾伸筋/屈筋",
+   "inherited": true
+  },
+  "短母趾屈筋": {
+   "objectNames": [
+    "Lateral head of flexor hallucis brevis.l",
+    "Lateral head of flexor hallucis brevis.r",
+    "Medial head of flexor hallucis brevis.l",
+    "Medial head of flexor hallucis brevis.r"
+   ],
+   "notModeled": false,
+   "symptom": "足の指の痛み、しびれ、ハンマートゥ（指の変形） ",
+   "cause": "サイズの合わない靴、長時間の立ち仕事",
+   "treatment": "ゴルフボールを床に置き、足の裏や指の付け根を転がしてほぐす",
+   "careSource": "足趾伸筋/屈筋",
+   "inherited": true
+  },
+  "短腓骨筋": {
+   "objectNames": [
+    "Fibularis brevis muscle.l",
+    "Fibularis brevis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "足首の外側の痛み、足の弱さ（くじきやすさ）",
+   "cause": "靴の不適合、不整地での歩行、足首の捻挫",
+   "treatment": "マッサージガンやゴルフボールを使い、すねの外側の骨の脇をしごく",
+   "careSource": "腓骨筋群",
+   "inherited": true
+  },
+  "短趾伸筋": {
+   "objectNames": [
+    "Extensor digitorum brevis.l",
+    "Extensor digitorum brevis.r"
+   ],
+   "notModeled": false,
+   "symptom": "足の指の痛み、しびれ、ハンマートゥ（指の変形） ",
+   "cause": "サイズの合わない靴、長時間の立ち仕事",
+   "treatment": "ゴルフボールを床に置き、足の裏や指の付け根を転がしてほぐす",
+   "careSource": "足趾伸筋/屈筋",
+   "inherited": true
+  },
+  "短趾屈筋": {
+   "objectNames": [
+    "Flexor digitorum brevis.l",
+    "Flexor digitorum brevis.r"
+   ],
+   "notModeled": false,
+   "symptom": "足の指の痛み、しびれ、ハンマートゥ（指の変形） ",
+   "cause": "サイズの合わない靴、長時間の立ち仕事",
+   "treatment": "ゴルフボールを床に置き、足の裏や指の付け根を転がしてほぐす",
+   "careSource": "足趾伸筋/屈筋",
+   "inherited": true
+  },
+  "第一背側骨間筋": {
+   "objectNames": [
+    "Dorsal interossei muscles of hand.l",
+    "Dorsal interossei muscles of hand.r"
+   ],
+   "notModeled": false,
+   "symptom": "手の甲、人差し指の側面・背面の痛み、手のこわばり",
+   "cause": "キーボード操作、楽器演奏、細かい手作業",
+   "treatment": "親指と人差し指の間の筋肉を深く挟み込み、しごくようにマッサージする",
+   "careSource": null,
+   "inherited": false
+  },
+  "第三腓骨筋": {
+   "objectNames": [
+    "Fibularis tertius muscle.l",
+    "Fibularis tertius muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "足首の外側の痛み、足の弱さ（くじきやすさ）",
+   "cause": "靴の不適合、不整地での歩行、足首の捻挫",
+   "treatment": "マッサージガンやゴルフボールを使い、すねの外側の骨の脇をしごく",
+   "careSource": "腓骨筋群",
+   "inherited": true
+  },
+  "縫工筋": {
+   "objectNames": [
+    "Sartorius muscle.l",
+    "Sartorius muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "膝の内側の鋭い痛み、太もものしびれ（感覚過敏）",
+   "cause": "転倒、急なひねり動作",
+   "treatment": "指先やマッサージガンで、太ももの斜めライン（付け根から膝内側）を優しくストロークする",
+   "careSource": null,
+   "inherited": false
+  },
+  "肋間筋": {
+   "objectNames": [
+    "External intercostal muscles.l",
+    "External intercostal muscles.r",
+    "Innermost intercostal muscles.l",
+    "Innermost intercostal muscles.r",
+    "Internal intercostal muscles.l",
+    "Internal intercostal muscles.r"
+   ],
+   "notModeled": false,
+   "symptom": "脇腹の痛み（脇腹痛）、深呼吸や咳をした時の痛み",
+   "cause": "姿勢のゆがみ、外科手術後、激しい呼吸",
+   "treatment": "肋骨の間に指先を当て、短いストロークで優しく筋肉をほぐす",
+   "careSource": "肋間筋/横隔膜",
+   "inherited": false
+  },
+  "肘筋": {
+   "objectNames": [
+    "Anconeus muscle.l",
+    "Anconeus muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "肘の外側の局所的な痛み（テニス肘様）",
+   "cause": "肘の繰り返し伸展や、回外・回内動作",
+   "treatment": "肘の先端付近の外側にある柔らかい部位を、指先でマッサージする",
+   "careSource": null,
+   "inherited": false
+  },
+  "肩甲下筋": {
+   "objectNames": [
+    "Subscapularis muscle.l",
+    "Subscapularis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "肩の後面のひどい痛み、手首の背面の痛み、五十肩のような可動制限",
+   "cause": "転倒による肩の打撲、肩の酷使、運動不足",
+   "treatment": "脇の下に指を入れ、肋骨ではなく肩甲骨の裏側に向かってしごく",
+   "careSource": null,
+   "inherited": false
+  },
+  "肩甲挙筋": {
+   "objectNames": [
+    "Levator scapulae.l",
+    "Levator scapulae.r"
+   ],
+   "notModeled": false,
+   "symptom": "「寝違え」のような首の痛み、首を回した時の激痛",
+   "cause": "精神的ストレス、前かがみ姿勢での読書や作業",
+   "treatment": "セラ・ケインを肩甲骨の上角（首の付け根）に引っ掛け、前方に引く",
+   "careSource": null,
+   "inherited": false
+  },
+  "胸鎖乳突筋": {
+   "objectNames": [
+    "Sternocleidomastoid muscle.l",
+    "Sternocleidomastoid muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "頭頂部・おでこ・目の奥の痛み、めまい、かすみ目、複視、乗り物酔い",
+   "cause": "頭を前に出す姿勢、重い荷物の挙上、激しい咳、胸式呼吸",
+   "treatment": "指で筋肉をつまみ、ゆっくりとしごく（ピンチ・マッサージ）",
+   "careSource": null,
+   "inherited": false
+  },
+  "胸骨筋": {
+   "objectNames": [],
+   "notModeled": true,
+   "symptom": "胸の中心部の深い痛み（心臓疾患の痛みと間違われやすい）",
+   "cause": "大胸筋の酷使、猫背などの不良姿勢",
+   "treatment": "胸骨（胸の中央の骨）の両側に沿って指を当て、短いストロークでほぐす",
+   "careSource": null,
+   "inherited": false
+  },
+  "脊柱起立筋": {
+   "objectNames": [
+    "Iliocostalis colli muscle.l",
+    "Iliocostalis colli muscle.r",
+    "Iliocostalis lumborum muscle.l",
+    "Iliocostalis lumborum muscle.r",
+    "Iliocostalis thoracis muscle.l",
+    "Iliocostalis thoracis muscle.r",
+    "Longissimus capitis muscle.l",
+    "Longissimus capitis muscle.r",
+    "Longissimus colli muscle.l",
+    "Longissimus colli muscle.r",
+    "Longissimus thoracis muscle.l",
+    "Longissimus thoracis muscle.r",
+    "Spinalis capitis muscle.l",
+    "Spinalis capitis muscle.r",
+    "Spinalis colli muscle.l",
+    "Spinalis colli muscle.r",
+    "Spinalis thoracis muscle.l",
+    "Spinalis thoracis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "背中から腰にかけての痛み、腹部への関連痛",
+   "cause": "重い物の挙上、長時間の不動姿勢、猫背",
+   "treatment": "ラクロスボール（または2結びのボール）を床に置き、自重で圧を加える",
+   "careSource": null,
+   "inherited": false
+  },
+  "腓腹筋": {
+   "objectNames": [
+    "Lateral head of gastrocnemius.l",
+    "Lateral head of gastrocnemius.r",
+    "Medial head of gastrocnemius.l",
+    "Medial head of gastrocnemius.r"
+   ],
+   "notModeled": false,
+   "symptom": "かかとの痛み、足の裏の痛み、ふくらはぎの痙攣、腰痛",
+   "cause": "ハイヒール、冷え、長時間の立ち仕事",
+   "treatment": "ラクロスボールをふくらはぎの下に置き、反対側の脚を乗せて荷重する",
+   "careSource": "腓腹筋/ヒラメ筋",
+   "inherited": false
+  },
+  "腕橈骨筋": {
+   "objectNames": [
+    "Brachioradialis muscle.l",
+    "Brachioradialis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "肘の外側の痛み（テニス肘様）、母指と示指の間の痛み",
+   "cause": "強い握り動作の繰り返し、草むしり、ネジ回し",
+   "treatment": "椅子に座り、前腕を机に置いて反対側の親指でしごく",
+   "careSource": null,
+   "inherited": false
+  },
+  "腰方形筋": {
+   "objectNames": [
+    "Quadratus lumborum muscle.l",
+    "Quadratus lumborum muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "深部の激しい腰痛、股関節の痛み、寝返り時の激痛",
+   "cause": "中腰での作業、転倒、足の長さの左右差",
+   "treatment": "セラ・ケインを使い、腰の横側の深部にあるポイントを押し当てる",
+   "careSource": null,
+   "inherited": false
+  },
+  "腰筋": {
+   "objectNames": [
+    "Iliopsoas fascia.l",
+    "Iliopsoas fascia.r",
+    "Psoas major.l",
+    "Psoas major.r"
+   ],
+   "notModeled": false,
+   "symptom": "鼠径部（脚の付け根）の痛み、腰痛、大腿前面の痛み",
+   "cause": "長時間の座りっぱなし、腹筋運動のしすぎ",
+   "treatment": "仰向けで膝を立て、腹部の深部に指を差し込み、背骨側に向かって押す",
+   "careSource": null,
+   "inherited": false
+  },
+  "腹斜筋": {
+   "objectNames": [
+    "External abdominal oblique muscle.l",
+    "External abdominal oblique muscle.r",
+    "Internal abdominal oblique muscle.l",
+    "Internal abdominal oblique muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "脇腹の痛み、深呼吸や咳での痛み、胸やけ、月経痛、頻尿",
+   "cause": "激しい運動（腹筋）、姿勢のゆがみ、精神的ストレス",
+   "treatment": "脇腹の圧痛点を指先で探し、短く深いストロークでマッサージする",
+   "careSource": null,
+   "inherited": false
+  },
+  "腹直筋": {
+   "objectNames": [
+    "Rectus abdominis muscle.l",
+    "Rectus abdominis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "胸やけ、胃痛様、月経痛、腰痛、便秘、頻尿",
+   "cause": "激しい運動（腹筋運動）、姿勢のゆがみ、精神的ストレス",
+   "treatment": "仰向けで膝を立て、指を腹部に深く差し込み、ゆっくりと円を描く",
+   "careSource": null,
+   "inherited": false
+  },
+  "膝窩筋": {
+   "objectNames": [
+    "Popliteus muscle.l",
+    "Popliteus muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "膝の裏側の痛み（特に坂道や階段を下りる際）",
+   "cause": "ランニング、膝の不意なひねり、怪我",
+   "treatment": "膝の裏（膝窩）の筋肉を指先で探り、非常に優しくほぐす",
+   "careSource": null,
+   "inherited": false
+  },
+  "菱形筋": {
+   "objectNames": [
+    "Rhomboid major muscle.l",
+    "Rhomboid major muscle.r",
+    "Rhomboid minor muscle.l",
+    "Rhomboid minor muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "肩甲骨の内縁に沿った痛み、肩を動かす時の音（パキパキ）",
+   "cause": "猫背姿勢、長時間のデスクワーク、腕を前に出し続ける",
+   "treatment": "セラ・ケインやラクロスボールで、肩甲骨の縁を壁に向かって押す",
+   "careSource": null,
+   "inherited": false
+  },
+  "薄筋": {
+   "objectNames": [
+    "Gracilis muscle.l",
+    "Gracilis muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "鼠径部（脚の付け根）の痛み、膝の内側の痛み ",
+   "cause": "足を滑らせる、長時間の運転、内転筋の過度な筋トレ",
+   "treatment": "座った状態で、膝の上に置いたラクロスボールや自らの肘を使って太ももの内側をしごく",
+   "careSource": "内転筋群",
+   "inherited": true
+  },
+  "足底方形筋": {
+   "objectNames": [
+    "Quadratus plantae muscle.l",
+    "Quadratus plantae muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "かかとの痛み（特に歩き始めの激痛） ",
+   "cause": "硬い床での作業、過度のランニング",
+   "treatment": "床に置いたゴルフボールでかかとの前方をピンポイントで踏む",
+   "careSource": null,
+   "inherited": false
+  },
+  "足底筋": {
+   "objectNames": [
+    "Plantaris muscle.l",
+    "Plantaris muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "膝の裏側の痛み",
+   "cause": "ふくらはぎの急激な伸展や酷使",
+   "treatment": "膝の裏からふくらはぎの上部にかけてのポイントをマッサージする",
+   "careSource": null,
+   "inherited": false
+  },
+  "鎖骨下筋": {
+   "objectNames": [
+    "Subclavius muscle.l",
+    "Subclavius muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "肩の前面、腕の親指側の痛みとしびれ",
+   "cause": "腕を酷使する作業",
+   "treatment": "鎖骨のすぐ下（中央付近）に指を押し込み、鎖骨に対してしごく",
+   "careSource": null,
+   "inherited": false
+  },
+  "長内転筋": {
+   "objectNames": [
+    "Adductor longus.l",
+    "Adductor longus.r"
+   ],
+   "notModeled": false,
+   "symptom": "鼠径部（脚の付け根）の痛み、膝の内側の痛み ",
+   "cause": "足を滑らせる、長時間の運転、内転筋の過度な筋トレ",
+   "treatment": "座った状態で、膝の上に置いたラクロスボールや自らの肘を使って太ももの内側をしごく",
+   "careSource": "内転筋群",
+   "inherited": true
+  },
+  "長掌筋": {
+   "objectNames": [
+    "Palmaris longus muscle.l",
+    "Palmaris longus muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "肘の内側、手首の前面、手のひら、指の掌側の痛み",
+   "cause": "剪定ばさみの使用、重いハンドル操作、ゴルフ",
+   "treatment": "机の上に置いたゴルフボールに前腕を乗せ、体重をかけて転がす",
+   "careSource": "前腕屈筋群",
+   "inherited": true
+  },
+  "長橈側手根伸筋": {
+   "objectNames": [
+    "Extensor carpi radialis longus.l",
+    "Extensor carpi radialis longus.r"
+   ],
+   "notModeled": false,
+   "symptom": "肘の外側、手首の背面、指の背面の痛み、握力低下",
+   "cause": "長時間のタイピング、テニス、編み物、ピアノ演奏",
+   "treatment": "ラクロスボールを壁と腕の間に挟み、ゆっくりと回転させる",
+   "careSource": "前腕伸筋群",
+   "inherited": true
+  },
+  "長母指屈筋": {
+   "objectNames": [
+    "Flexor pollicis longus.l",
+    "Flexor pollicis longus.r"
+   ],
+   "notModeled": false,
+   "symptom": "肘の内側、手首の前面、手のひら、指の掌側の痛み",
+   "cause": "剪定ばさみの使用、重いハンドル操作、ゴルフ",
+   "treatment": "机の上に置いたゴルフボールに前腕を乗せ、体重をかけて転がす",
+   "careSource": "前腕屈筋群",
+   "inherited": true
+  },
+  "長母趾伸筋": {
+   "objectNames": [
+    "Extensor hallucis longus.l",
+    "Extensor hallucis longus.r"
+   ],
+   "notModeled": false,
+   "symptom": "足の指の痛み、しびれ、ハンマートゥ（指の変形） ",
+   "cause": "サイズの合わない靴、長時間の立ち仕事",
+   "treatment": "ゴルフボールを床に置き、足の裏や指の付け根を転がしてほぐす",
+   "careSource": "足趾伸筋/屈筋",
+   "inherited": true
+  },
+  "長母趾屈筋": {
+   "objectNames": [
+    "Flexor hallucis longus.l",
+    "Flexor hallucis longus.r"
+   ],
+   "notModeled": false,
+   "symptom": "足の指の痛み、しびれ、ハンマートゥ（指の変形） ",
+   "cause": "サイズの合わない靴、長時間の立ち仕事",
+   "treatment": "ゴルフボールを床に置き、足の裏や指の付け根を転がしてほぐす",
+   "careSource": "足趾伸筋/屈筋",
+   "inherited": true
+  },
+  "長腓骨筋": {
+   "objectNames": [
+    "Fibularis longus muscle.l",
+    "Fibularis longus muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "足首の外側の痛み、足の弱さ（くじきやすさ）",
+   "cause": "靴の不適合、不整地での歩行、足首の捻挫",
+   "treatment": "マッサージガンやゴルフボールを使い、すねの外側の骨の脇をしごく",
+   "careSource": "腓骨筋群",
+   "inherited": true
+  },
+  "長趾伸筋": {
+   "objectNames": [
+    "Extensor digitorum longus.l",
+    "Extensor digitorum longus.r"
+   ],
+   "notModeled": false,
+   "symptom": "足の指の痛み、しびれ、ハンマートゥ（指の変形） ",
+   "cause": "サイズの合わない靴、長時間の立ち仕事",
+   "treatment": "ゴルフボールを床に置き、足の裏や指の付け根を転がしてほぐす",
+   "careSource": "足趾伸筋/屈筋",
+   "inherited": true
+  },
+  "長趾屈筋": {
+   "objectNames": [
+    "Flexor digitorum longus.l",
+    "Flexor digitorum longus.r"
+   ],
+   "notModeled": false,
+   "symptom": "足の指の痛み、しびれ、ハンマートゥ（指の変形） ",
+   "cause": "サイズの合わない靴、長時間の立ち仕事",
+   "treatment": "ゴルフボールを床に置き、足の裏や指の付け根を転がしてほぐす",
+   "careSource": "足趾伸筋/屈筋",
+   "inherited": true
+  },
+  "頬筋": {
+   "objectNames": [
+    "Bucinator.l",
+    "Bucinator.r"
+   ],
+   "notModeled": false,
+   "symptom": "上の歯の痛み、頬の腫れぼったい感じ",
+   "cause": "強く噛む動作の繰り返し",
+   "treatment": "親指を口の中、人差し指を外側にして筋肉を挟み込み、しごく",
+   "careSource": null,
+   "inherited": false
+  },
+  "頬骨筋": {
+   "objectNames": [
+    "Zygomaticus major muscle.l",
+    "Zygomaticus major muscle.r",
+    "Zygomaticus minor muscle.l",
+    "Zygomaticus minor muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "鼻の脇、鼻梁、顔面中央の痛み、アレルギー様の症状（鼻水、くしゃみなど）",
+   "cause": "顔の表情、感情的な緊張",
+   "treatment": "指先で目の下から頬骨に沿って、短く深いストロークでマッサージする",
+   "careSource": "上唇挙筋 & 頬骨筋",
+   "inherited": false
+  },
+  "頭半棘筋": {
+   "objectNames": [],
+   "notModeled": true,
+   "symptom": "頭の深部の痛み、眼精疲労、頭全体が締め付けられる感覚",
+   "cause": "不適切な眼鏡の使用、猫背、冷え",
+   "treatment": "仰向けでテニスボール（または2結びのボール）を首の付け根に当て、頭の重みで圧を加える",
+   "careSource": "後頭下筋群",
+   "inherited": true
+  },
+  "頸板状筋": {
+   "objectNames": [
+    "Splenius colli muscle.l",
+    "Splenius colli muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "頭蓋内のズキズキする痛み、頭頂部への関連痛、目の奥の痛み",
+   "cause": "首を回す動作の酷使、長時間の不良姿勢、冷え",
+   "treatment": "仰向けで指やテニスボールを使い、頭の重みを利用して圧を加える",
+   "careSource": "板状筋",
+   "inherited": true
+  },
+  "頸長筋": {
+   "objectNames": [
+    "Longus colli muscle.l",
+    "Longus colli muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "喉の痛み、喉に物が詰まっているような違和感",
+   "cause": "鞭打ち症（交通事故など）",
+   "treatment": "気管を横に避け、頸椎の前面にある結節を指先で非常に優しく押す",
+   "careSource": null,
+   "inherited": false
+  },
+  "顎二腹筋": {
+   "objectNames": [
+    "Anterior belly of digastric muscle.l",
+    "Anterior belly of digastric muscle.r",
+    "Posterior belly of digastric muscle.l",
+    "Posterior belly of digastric muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "下の前歯の痛み、喉の詰まり感（飲み込みにくさ）",
+   "cause": "口呼吸の習慣、歯ぎしり",
+   "treatment": "顎の骨のすぐ内側に指を入れ、骨に沿ってゆっくりとしごく",
+   "careSource": null,
+   "inherited": false
+  },
+  "顎舌骨筋": {
+   "objectNames": [
+    "Mylohyoid muscle.l",
+    "Mylohyoid muscle.r"
+   ],
+   "notModeled": false,
+   "symptom": "舌の先の痛み、飲み込みにくさ、喉の詰まり感",
+   "cause": "口呼吸の習慣、食いしばり",
+   "treatment": "顎の骨のすぐ内側の柔らかい部分を、指先で優しく処置する",
+   "careSource": null,
+   "inherited": false
+  },
+  "骨間筋": {
+   "objectNames": [
+    "Dorsal interossei muscles of foot.l",
+    "Dorsal interossei muscles of foot.r",
+    "Dorsal interossei muscles of hand.l",
+    "Dorsal interossei muscles of hand.r",
+    "Palmar interossei muscles.l",
+    "Palmar interossei muscles.r",
+    "Plantar interossei muscles.l",
+    "Plantar interossei muscles.r"
+   ],
+   "notModeled": false,
+   "symptom": "指の関節の痛み（関節炎様）、指の側面や背面の痛み",
+   "cause": "キーボード操作、楽器演奏、細かい手作業",
+   "treatment": "ノブルや消しゴム付き鉛筆を使い、手の骨の間を深くマッサージ",
+   "careSource": null,
+   "inherited": false
+  }
+ }
+}

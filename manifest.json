@@ -1,0 +1,15 @@
+{
+  "name": "TriggerPointMap",
+  "short_name": "TriggerPt",
+  "description": "痛みの部位から原因筋（トリガーポイント）を検索し、3Dモデルで確認できるアプリ",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#171B26",
+  "theme_color": "#171B26",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
