@@ -466,25 +466,31 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
   const DIM_OPACITY = 0.16;
   let allMeshes = [];
-  const loadedRoots = []; // top-level glTF scene roots, searched by getObjectByName
-  const meshCache = {}; // objectName -> mesh[] (resolved lazily, cached)
+  const loadedRoots = []; // top-level glTF scene roots
+  let nameGroups = null; // normalized base name -> mesh[]
 
-  function collectMeshes(node){
-    const found = [];
-    node.traverse(o=>{ if(o.isMesh) found.push(o); });
-    return found;
+  function normalizeName(raw){
+    if(!raw) return '';
+    return raw
+      .replace(/\.[rl]\d*$/i, '')   // strip trailing .r / .l (possibly with a number) from expected names
+      .replace(/_\d+$/, '')          // strip Blender's auto dedup suffix (_1, _2, ...) from loaded names
+      .replace(/[_\s]+/g, ' ')
+      .trim()
+      .toLowerCase();
+  }
+
+  function buildNameGroups(){
+    nameGroups = {};
+    allMeshes.forEach(mesh=>{
+      const key = normalizeName(mesh.name);
+      if(!key) return;
+      (nameGroups[key] = nameGroups[key] || []).push(mesh);
+    });
   }
 
   function meshesForObjectName(objName){
-    if(objName in meshCache) return meshCache[objName];
-    let target = null;
-    for(const root of loadedRoots){
-      target = root.getObjectByName(objName);
-      if(target) break;
-    }
-    const meshes = target ? collectMeshes(target) : [];
-    meshCache[objName] = meshes;
-    return meshes;
+    if(!nameGroups) buildNameGroups();
+    return nameGroups[normalizeName(objName)] || [];
   }
 
   function dimAll(){
@@ -533,11 +539,11 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
   function resolveMuscleFromHit(hitObject){
     let node = hitObject;
     while(node){
-      const n = node.name;
-      if(n){
+      const key = normalizeName(node.name);
+      if(key){
         const found = currentMuscleNames.find(name=>{
           const mo = muscles[name];
-          return !mo.notModeled && mo.objectNames.includes(n);
+          return !mo.notModeled && mo.objectNames.some(o=>normalizeName(o)===key);
         });
         if(found) return found;
       }
@@ -625,15 +631,15 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
       let n = 0;
       loadedRoots.forEach(root=>root.traverse(o=>{ n++; }));
 
-      const missing = [...allNeeded].filter(x=>!loadedNames.has(x));
+      const missing = [...allNeeded].filter(x=>meshesForObjectName(x).length===0);
 
       let out = '';
       out += `読み込んだ全ノード数: ${n}\n`;
       out += `読み込んだメッシュ数: ${allMeshes.length}\n`;
       out += `名前付きメッシュの種類数(重複除く): ${loadedNames.size}\n`;
       out += `必要なオブジェクト名の総数: ${allNeeded.size}\n`;
-      out += `一致した数: ${allNeeded.size - missing.length}\n\n`;
-      out += `--- 見つからなかった名前（必要なのに読み込んだモデルに無い） ---\n`;
+      out += `一致した数（正規化後）: ${allNeeded.size - missing.length}\n\n`;
+      out += `--- 見つからなかった名前（正規化しても一致しない） ---\n`;
       out += missing.slice(0,60).join('\n');
       if(missing.length>60) out += `\n...ほか${missing.length-60}件`;
       out += `\n\n--- 実際に読み込まれたメッシュの名前（先頭80件） ---\n`;
