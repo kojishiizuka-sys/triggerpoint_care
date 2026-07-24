@@ -221,9 +221,7 @@
 <div id="app">
   <header>
     <div class="eyebrow">TRIGGER POINT ATLAS</div>
-
     <h1>TriggerPointMap</h1>
-    <button id="debug-btn" style="position:absolute; top:12px; right:14px; background:var(--panel-2); color:var(--text-dim); border:1px solid var(--line); border-radius:6px; font-size:11px; padding:5px 8px;">名前一覧</button>
   </header>
 
   <div class="selectors">
@@ -234,8 +232,6 @@
       <option value="">痛みの場所を選択してください</option>
     </select>
   </div>
-
-  <div id="debug-panel" style="display:none; position:fixed; inset:0; z-index:40; background:#10131c; color:#cfd4e6; font-family:monospace; font-size:11px; padding:16px; overflow-y:auto; white-space:pre-wrap; line-height:1.6;"></div>
 
   <main>
     <div id="viewer-wrap">
@@ -478,6 +474,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
       mesh.material.transparent = true;
       mesh.material.emissive && mesh.material.emissive.setHex(0x000000);
       if(mesh.userData.origColor) mesh.material.color.copy(mesh.userData.origColor);
+      mesh.renderOrder = 0;
     });
   }
   function clearHighlight(){
@@ -485,13 +482,14 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
     renderer.render(scene, camera);
   }
 
-  function paintMeshes(meshes, opacity, color){
+  function paintMeshes(meshes, opacity, color, order){
     meshes.forEach(mesh=>{
       mesh.material.opacity = opacity;
       mesh.material.transparent = true;
       if(mesh.material.color) mesh.material.color.set(color);
       if(mesh.material.emissive) mesh.material.emissive.setHex(color);
       if(mesh.material.emissiveIntensity !== undefined) mesh.material.emissiveIntensity = 0.3;
+      mesh.renderOrder = order;
     });
   }
 
@@ -499,33 +497,21 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
   // selectedName is given) repaints that one muscle in red on top
   function applyGroupHighlight(names, selectedName){
     dimAll();
-    let groupFound = 0, groupTotal = 0;
     names.forEach(n=>{
       const m = muscles[n];
       if(m.notModeled) return;
-      groupTotal += m.objectNames.length;
       m.objectNames.forEach(o=>{
-        const meshes = meshesForObjectName(o);
-        if(meshes.length) groupFound++;
-        paintMeshes(meshes, GROUP_OPACITY, GROUP_COLOR);
+        paintMeshes(meshesForObjectName(o), GROUP_OPACITY, GROUP_COLOR, 1);
       });
     });
 
-    const hintEl = document.getElementById('viewer-hint');
     if(selectedName){
       const m = muscles[selectedName];
-      let foundMeshCount = 0, resolvedNameCount = 0;
       if(!m.notModeled){
         m.objectNames.forEach(objName=>{
-          const meshes = meshesForObjectName(objName);
-          if(meshes.length) resolvedNameCount++;
-          foundMeshCount += meshes.length;
-          paintMeshes(meshes, 1.0, SELECTED_COLOR);
+          paintMeshes(meshesForObjectName(objName), 1.0, SELECTED_COLOR, 2);
         });
       }
-      hintEl.textContent = `[debug] ${selectedName}: 対象名${m.objectNames.length}件中${resolvedNameCount}件解決 / メッシュ${foundMeshCount}個`;
-    } else {
-      hintEl.textContent = `[debug] 原因筋グループ: 対象名${groupTotal}件中${groupFound}件解決`;
     }
   }
 
@@ -580,6 +566,8 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
         obj.material = obj.material.clone();
         obj.material.transparent = true;
         obj.material.opacity = DIM_OPACITY;
+        obj.material.depthWrite = false;
+        obj.renderOrder = 0;
         if(obj.material.color) obj.userData.origColor = obj.material.color.clone();
         allMeshes.push(obj);
       }
@@ -610,44 +598,6 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
     loadingEl.style.display = 'none';
     resize();
     animate();
-
-    // diagnostic: confirm how many of the needed objects actually resolved by name
-    const allNeeded = new Set();
-    Object.values(muscles).forEach(m => m.objectNames.forEach(o=>allNeeded.add(o)));
-    let hit = 0;
-    allNeeded.forEach(o => { if(meshesForObjectName(o).length) hit++; });
-    console.log(`[TriggerPointMap] 3Dオブジェクト一致: ${hit} / ${allNeeded.size}`);
-    if(hit === 0 && allNeeded.size > 0){
-      document.getElementById('viewer-hint').textContent =
-        `⚠ 3Dオブジェクト名が一致していません（0/${allNeeded.size}）。glb書き出し設定をご確認ください。`;
-    }
-
-    document.getElementById('debug-btn').addEventListener('click', ()=>{
-      const panel = document.getElementById('debug-panel');
-      if(panel.style.display === 'block'){ panel.style.display = 'none'; return; }
-
-      const loadedNames = new Set();
-      allMeshes.forEach(m=>{ if(m.name) loadedNames.add(m.name); });
-      let n = 0;
-      loadedRoots.forEach(root=>root.traverse(o=>{ n++; }));
-
-      const missing = [...allNeeded].filter(x=>meshesForObjectName(x).length===0);
-
-      let out = '';
-      out += `読み込んだ全ノード数: ${n}\n`;
-      out += `読み込んだメッシュ数: ${allMeshes.length}\n`;
-      out += `名前付きメッシュの種類数(重複除く): ${loadedNames.size}\n`;
-      out += `必要なオブジェクト名の総数: ${allNeeded.size}\n`;
-      out += `一致した数（正規化後）: ${allNeeded.size - missing.length}\n\n`;
-      out += `--- 見つからなかった名前（正規化しても一致しない） ---\n`;
-      out += missing.slice(0,60).join('\n');
-      if(missing.length>60) out += `\n...ほか${missing.length-60}件`;
-      out += `\n\n--- 実際に読み込まれたメッシュの名前（先頭80件） ---\n`;
-      out += [...loadedNames].sort().slice(0,80).join('\n');
-
-      panel.textContent = out;
-      panel.style.display = 'block';
-    });
   })();
 
   function animate(){
